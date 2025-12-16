@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="project-magic-localai-consoleapp/project-magic-localai-consoleapp.vcxproj" Id="f48f7c51-b036-4ac5-a2e3-57425773be6c" />
+  <Project Path="project-magic-localai-unity/project-magic-localai-unity.vcxproj" Id="bf216c57-aa33-4f56-bbfc-dff4bb981844" />
+</Solution>
