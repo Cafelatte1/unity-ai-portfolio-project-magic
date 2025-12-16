@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57b3e3c979072048be199bf613c59e7, type: 3}
+  m_Name: Electric1
+  m_EditorClassIdentifier: 
+  skillName: Electric1
+  skillIcon: {fileID: 0}
+  attackType: 2
+  skillPrefab: {fileID: 3574882092886171543, guid: 9f682e9cb82786f418282fe56c4d2f49,
+    type: 3}
+  projectileSpeed: 0
+  AoeRadius: 0
+  hitVFX: {fileID: 0}
+  attackDamage: 25
+  attackCooldown: 1
+  attackRange: 3
+  attackKnockback: {x: 8, y: 4}

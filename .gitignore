@@ -1,0 +1,34 @@
+# 자동 생성 폴더
+Temp/
+Library/
+Logs/
+UserSettings/
+
+# IDE/Editor
+.vs/
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.userprefs
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+Build/
+Builds/
+*.unitypackage
+
+# 기타
+obj/
+bin/
+*.log
+
+# Env file
+env/
+
+# Imported Assets
+Assets/Imported Assets/Audio/
+Assets/Models/
