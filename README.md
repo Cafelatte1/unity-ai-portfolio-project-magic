@@ -1,9 +1,9 @@
 ## INFO
 
 - 본 repo는 포트폴리오 목적으로 구성되었으며 **저작권 문제로 인해 원본 repo의 스크립트 파일만을 공개한 버전**입니다.
-- 마크다운 형식의 Document 파일들을 참고하시면 본 프로젝트에 대한 전체적인 도울 수 있습니다.
-- 실제 구현 내용은 Unity용 스크립트가 담긴 Asset/Scrips/ 폴더 및 **Intel OpenVINO 기반 On-Device 추론용 스크립트**가 담긴 Asset/DLL/project-magic-localai/ 폴더 내 파일들을 확인해 주세요. ([Unity DLL 스크립트](https://github.com/Cafelatte1/unity-ai-portfolio-project-magic/blob/main/Assets/DLL/project-magic-localai/project-magic-localai-unity/ov_llm_export.cpp), [OpenVINO 추론 스크립트](https://github.com/Cafelatte1/unity-ai-portfolio-project-magic/blob/main/Assets/DLL/project-magic-localai/Shared/ov_llm_shared.cpp))
-- 클로드 4.5 모델을 활용해 코드 리뷰를 기반으로 꾸준히 개선해 왔으며 진행 히스토리는 CodeEvaluation/ 폴더에 정리해 두었으니 참고해 주세요. ([최종 평가 보고서](https://github.com/Cafelatte1/unity-ai-portfolio-project-magic/blob/main/CodeEvaluation/FinalResult_2025-12-16_23-30.md))
+- 마크다운 형식의 Document 파일들을 참고하시면 본 프로젝트에 대한 전반적인 이해를 도울 수 있습니다.
+- 실제 구현 내용은 Unity용 스크립트가 담긴 Asset/Scrips/ 폴더 및 **Intel OpenVINO 기반 On-Device 추론용 스크립트**가 담긴 Asset/DLL/project-magic-localai/ 폴더에 있습니다. ([Unity DLL 스크립트](https://github.com/Cafelatte1/unity-ai-portfolio-project-magic/blob/main/Assets/DLL/project-magic-localai/project-magic-localai-unity/ov_llm_export.cpp), [OpenVINO 추론 스크립트](https://github.com/Cafelatte1/unity-ai-portfolio-project-magic/blob/main/Assets/DLL/project-magic-localai/Shared/ov_llm_shared.cpp))
+- 클로드 4.5 모델을 활용해 코드 리뷰를 기반으로 꾸준히 개선해 왔으며 진행 히스토리는 CodeEvaluation/ 폴더에 있습니다. ([최종 평가 보고서](https://github.com/Cafelatte1/unity-ai-portfolio-project-magic/blob/main/CodeEvaluation/FinalResult_2025-12-16_23-30.md))
 
 ---
 
