@@ -90,12 +90,18 @@ public class LLMInferenceManager : Singleton<LLMInferenceManager>
         Stopwatch sw;
         if (Logger.DEBUG) sw = new Stopwatch();
         else sw = null;
-        
+# if UNITY_EDITOR
+        sw = new Stopwatch();
+# endif
+
         sw?.Start();
         var pipeline = OV_LoadModel(modelPath, device != "CPU" ? "CPU" : device);
         sw?.Stop();
         if (sw != null)
             Logger.Write($"execute dll; OV_LoadModel / elapsed(sec)={MathUtils.Ceil(sw.ElapsedMilliseconds / 1000, 2)}");
+# if UNITY_EDITOR
+        UnityEngine.Debug.Log($"execute dll; OV_LoadModel / elapsed(sec)={MathUtils.Ceil(sw.ElapsedMilliseconds / 1000, 2)}");
+# endif
 
         if (pipeline == IntPtr.Zero)
             Logger.Write("Failed to execute OV_LoadModel", "ERROR");

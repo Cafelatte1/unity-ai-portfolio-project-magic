@@ -45,6 +45,9 @@ public class LLMWorkerThread
                     Stopwatch sw;
                     if (Logger.DEBUG) sw = new Stopwatch();
                     else sw = null;
+# if UNITY_EDITOR
+                    sw = new Stopwatch();
+# endif
 
                     Logger.Write($"run inference / reqId={req.requestId}");
                     // run inference
@@ -55,6 +58,9 @@ public class LLMWorkerThread
                     if (resultPtr == IntPtr.Zero) continue;
                     string result = Marshal.PtrToStringUTF8(resultPtr);
                     var output = new LLMOutput(result, null, (sw != null) ? (sw.ElapsedMilliseconds / 1000f) : 0f);
+# if UNITY_EDITOR
+                    UnityEngine.Debug.Log($"success to inference / elapsed(sec)={MathUtils.Ceil(sw.ElapsedMilliseconds / 1000, 2)}");
+# endif
                     _dispatchResponse(req, output);
                     // free string in Cpp heap
                     OV_FreeString(resultPtr);

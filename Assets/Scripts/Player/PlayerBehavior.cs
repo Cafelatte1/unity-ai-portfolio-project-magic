@@ -221,7 +221,7 @@ public class PlayerBehavior : MonoBehaviour
     // Inputs
     public void OnMove(InputValue value)
     {
-        if (!IsAlive) return;
+        if (!CanControll()) return;
 
         _moveInput = value.Get<float>();
     }
