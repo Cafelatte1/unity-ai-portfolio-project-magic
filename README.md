@@ -4,6 +4,16 @@
 - 마크다운 형식의 Document 파일들을 참고하시면 본 프로젝트에 대한 전반적인 이해를 도울 수 있습니다.
 - 실제 구현 내용은 Unity용 스크립트가 담긴 Asset/Scrips/ 폴더 및 **Intel OpenVINO 기반 On-Device 추론용 스크립트**가 담긴 Asset/DLL/project-magic-localai/ 폴더에 있습니다. ([Unity DLL 스크립트](https://github.com/Cafelatte1/unity-ai-portfolio-project-magic/blob/main/Assets/DLL/project-magic-localai/project-magic-localai-unity/ov_llm_export.cpp), [OpenVINO 추론 스크립트](https://github.com/Cafelatte1/unity-ai-portfolio-project-magic/blob/main/Assets/DLL/project-magic-localai/Shared/ov_llm_shared.cpp))
 - 클로드 4.5 모델을 활용해 코드 리뷰를 기반으로 꾸준히 개선해 왔으며 진행 히스토리는 CodeEvaluation/ 폴더에 있습니다. ([최종 평가 보고서](https://github.com/Cafelatte1/unity-ai-portfolio-project-magic/blob/main/CodeEvaluation/FinalResult_2025-12-16_23-30.md))
+```
+Copyright (c) 2025 FronyGames
+
+All rights reserved.
+
+No permission is granted to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of this software,
+or any substantial portion of it, without explicit written
+permission from the copyright holder.
+```
 
 ---
 
